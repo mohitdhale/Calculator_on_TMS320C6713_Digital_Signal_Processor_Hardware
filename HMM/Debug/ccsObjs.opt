@@ -1,0 +1,1 @@
+"./sub.obj" "./mul.obj" "./main.obj" "./div.obj" "./add.obj" -l"libc.a" -l"C:\DSK6713\c6000\dsk6713\lib\dsk6713bsl.lib" -l"C:\C6xCSL\lib_3x\csl6713.lib" "../C6713.cmd" 
