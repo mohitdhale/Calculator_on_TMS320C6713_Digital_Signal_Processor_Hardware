@@ -15,8 +15,11 @@ It contains 2 main files
 
   DSK6713_DIP_get(2)    DSK6713_DIP_get(3)    OPERATION
         0                     0     -->       Addition
+        
         0                     1     -->       Subtraction
+        
         1                     0     -->       Multiplication
+        
         1                     1     -->       Division
 
 
