@@ -13,15 +13,16 @@ It contains 2 main files
   main.c : It contains main code written in C language which calling 4 sub functions (Addition, Subtraction, Multiplication and Division) which is written in assembly language.
   Only 2 buttons are considered to create 4 different cases, and the Buttons declaration is written in respective Header files.
 
-  DSK6713_DIP_get(2)    DSK6713_DIP_get(3)    OPERATION
-  
-        0                     0     -->       Addition
         
-        0                     1     -->       Subtraction
+    DSK6713_DIP_get(2)    DSK6713_DIP_get(3)    OPERATION
+    
+        0                     0       -->       Addition
         
-        1                     0     -->       Multiplication
+        0                     1       -->       Subtraction
         
-        1                     1     -->       Division
+        1                     0       -->       Multiplication
+        
+        1                     1       -->       Division
 
 
    add.asm : This is the assemly code for Addition in which initalization of registers are done then B4 and B6 are the register in which data comes and addition is 
