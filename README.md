@@ -14,6 +14,7 @@ It contains 2 main files
   Only 2 buttons are considered to create 4 different cases, and the Buttons declaration is written in respective Header files.
 
   DSK6713_DIP_get(2)    DSK6713_DIP_get(3)    OPERATION
+  
         0                     0     -->       Addition
         
         0                     1     -->       Subtraction
