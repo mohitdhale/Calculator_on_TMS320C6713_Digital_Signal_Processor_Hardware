@@ -6,6 +6,7 @@ It contains 2 main files
 
 
 1.HMM Folder
+  
   This is the folder which contains mainly C Project which is done using Code Composer Studio (CCS) IDE.
   Target: TMS320C6713 DSP Processor
   Header Files: dsk6713_aic23.h, dsk6713_dip.h, dsk6713_flash.h, dsk6713_led.h
@@ -22,7 +23,8 @@ It contains 2 main files
    add.asm : This is the assemly code for Addition in which initalization of registers are done then B4 and B6 are the register in which data comes and addition is 
    performed by add function and it gets stored in A4 register. 
 
-   sub.asm : This is the assemly code for Subtraction, B4 and B6 are the register in which data comes and subtraction is performed by sub function and it gets stored in A4 register.
+   sub.asm : This is the assemly code for Subtraction, B4 and B6 are the register in which data comes and subtraction is performed by sub function and it gets stored 
+   in A4 register.
 
    mul.asm : This is the assemly code for Multiply, B4 and B6 are the register in which data comes and multiply is performed by MPY function and it gets stored in A4 register.
 
@@ -31,5 +33,6 @@ It contains 2 main files
    Using main function we call these functions using extern keyword and main file will execute them.
  
  2. How to.pdf
-    How to write a code from scratch is written here just from opening to till we execute the file along with one basic code of LED blinking code to verify it's really working or not.
+    How to write a code from scratch is written here just from opening to till we execute the file along with one basic code of LED blinking code to verify it's really 
+    working or not.
       
